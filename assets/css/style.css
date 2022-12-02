@@ -1,0 +1,50 @@
+nav
+{
+    background-color: rgb(2, 252, 239);
+}
+.flex-container
+{
+    display: flex;
+}
+.left-menu
+{
+    flex: 20%;
+}
+.right-menu
+{
+    flex: 80%;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(13, 14, 13);
+}
+
+.dropdown .drop-down-list{
+    position: absolute;
+    width: 100px;
+    height: 140px;left: 40%;
+    border-radius: 5px;
+    /* background-color:darkblue;*/
+    width: 100px;
+    left: 540px;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgb(255, 0,0 , 0.8);
+    /* z-index:1;*/
+    display: none;
+}
+.dropdown:hover .drop-down-list{
+    display: block;
+    
+}
+
+
